@@ -1,6 +1,7 @@
 window.defaults = {
   VERSE_BASE_URL_DEFAULT: 'https://mail.notes.na.collabserv.com',
-  DAYS_TO_SYNC_DEFAULT: 30
+  DAYS_TO_SYNC_DEFAULT: 30,
+  CALENDAR_ID: "johnhurdle23@gmail.com"
 };
 
 window.utils = {

@@ -20,9 +20,7 @@
     <div class="input-field">
       <label>
         Google Calendar:
-        <select id="calendar-id">
-          <option disabled selected>Loading...</option>
-        </select>
+        <input type="email" id="calendar-id" />
       </label>
     </div>
 
@@ -49,7 +47,10 @@
     <div id="sync-error" class="error"></div>
   </div>
 
+  <script src="../luxon.min.js"></script>
   <script src="../common.js"></script>
+  <script src="../background/verse-api.js"></script>
+  <script src="../background/google-api.js"></script>
   <script src="options.js"></script>
 </body>
 

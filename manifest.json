@@ -1,6 +1,7 @@
 {
   "name": "Verse to Google Calendar Sync",
-  "version": "0.1.0",
+  "version": "0.1.4",
+  "key":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo3UmruoDmTKXriT4fwInSqJ+jcd5kMsffasWqL5DZ0O+Ias61gp4Z+NIcwtFi+JsFUE+iekFEIsNoqI8BNzLwuiZN1BXMCXci+Nz+9zf7/b9ulp8pJqUxYwLMEHq0KhRVDB5zHWv6R/ouuGCquYXxMURyxhih+/skZ+JG0PxZtz2ayHEInh6/kvwQMPUBe9RKbso1gHOM8BzhiNEU3lcnIPio8DbaAtpKY8dS/kBH1YlJ3zzPwSOMMvoRFoyackoR9w+/ZDGqkTj0zewcPrJgEKb+Pi19jr0WfMJFJMJXSe37EQ0J27g1mho/TQ4ZpvxENCB1Yr9etYDyNqy9I34cwIDAQAB",
   "manifest_version": 2,
   "description": "Synchronise IBM Verse calendar events to Google calendar",
   "icons": {
@@ -23,9 +24,9 @@
     "chrome_style": true
   },
   "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self'",
-  "permissions": ["identity", "storage", "*://*/*"],
+  "permissions": ["identity", "storage", "*://*/*", "https://mail.notes.na.collabserv.com"],
   "oauth2": {
-    "client_id": "789975739772-pecbpn39f877ks1f3ciqk3psg7t8o02h.apps.googleusercontent.com",
+    "client_id": "887675006765-u60rs79dcq03glioh0de6bv0e5lgusnu.apps.googleusercontent.com",
     "scopes": ["https://www.googleapis.com/auth/calendar"]
   }
 }
